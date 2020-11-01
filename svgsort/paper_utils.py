@@ -3,7 +3,10 @@
 
 PAPER = {
     'a4': {'short': 210, 'long': 297, 'r': 297.0/210.0, 'name': 'A4'},
-    'a3':{'short': 297, 'long': 420, 'r': 420.0/297.0, 'name': 'A3'}
+    'a3':{'short': 297, 'long': 420, 'r': 420.0/297.0, 'name': 'A3'},
+    'ltr':{'short': 215, 'long': 279, 'r': 279.0/215.0, 'name': 'LTR'}, # Letter size actual = 215.9x279.4 mm
+    'lgl':{'short':215, 'long': 355, 'r': 355.0/215.0, 'name': 'LGL'},  # Legal size actual = 215.9x355.6 mm
+    'ldg':{'short': 279, 'long': 431, 'r': 431.0/279, 'name': 'LDG'}    # Ledger size actual = 279.4x431.8 mm
     }
 
 def make_paper(xy):
