@@ -2,11 +2,14 @@
 
 
 PAPER = {
-    'a4': {'short': 210, 'long': 297, 'r': 297.0/210.0, 'name': 'A4'},
-    'a3':{'short': 297, 'long': 420, 'r': 420.0/297.0, 'name': 'A3'},
     'ltr':{'short': 215, 'long': 279, 'r': 279.0/215.0, 'name': 'LTR'}, # Letter size actual = 215.9x279.4 mm
     'lgl':{'short':215, 'long': 355, 'r': 355.0/215.0, 'name': 'LGL'},  # Legal size actual = 215.9x355.6 mm
-    'ldg':{'short': 279, 'long': 431, 'r': 431.0/279, 'name': 'LDG'}    # Ledger size actual = 279.4x431.8 mm
+    'ldg':{'short': 279, 'long': 431, 'r': 431.0/279.0, 'name': 'LDG'},    # Ledger size actual = 279.4x431.8 mm
+    'ldg':{'short': 279, 'long': 431, 'r': 431.0/279.0, 'name': 'LDG'},    # Ledger size actual = 279.4x431.8 mm
+    'a4': {'short': 210, 'long': 297, 'r': 297.0/210.0, 'name': 'A4'},
+    'a3':{'short': 297, 'long': 420, 'r': 420.0/297.0, 'name': 'A3'},
+    '8sq':{'short': 203, 'long': 203, 'r': 203.0/203.0, 'name': '8SQ'},    # 8x8 inch actual = 203.2 mm sq
+    '10sq':{'short': 254, 'long': 254, 'r': 254.0/254.0, 'name': '10SQ'}    # 10x10 inch actual = 254 mm sq
     }
 
 def make_paper(xy):
